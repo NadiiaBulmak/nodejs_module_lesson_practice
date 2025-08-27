@@ -1,16 +1,17 @@
 {
   "type": "module",
   "dependencies": {
-    "lodash": "^4.17.21",
-    "nodemon": "^3.1.10"
+    "lodash": "^4.17.21"
   },
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon src/index.js"
   },
   "name": "module_lesson_practice",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
